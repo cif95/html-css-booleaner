@@ -10,8 +10,8 @@
 
 }
 
-main{
-	padding: 10px;
+main, footer{
+	padding:10px;
 	margin:10px;
 
 }
@@ -26,6 +26,11 @@ p .greytext{
 
 table {
 	text-align: left;
+}
+
+footer img{
+	display:block;
+	margin-top:10px;
 }
 
 .smallfont{
