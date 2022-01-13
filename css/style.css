@@ -1,0 +1,26 @@
+/* font-family: 'Licorice', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif; */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+header{
+	background:url(../img/pattern.png), rgb(77, 132, 250);
+	position:relative;
+	width:100vw;
+	height:20vh;
+}
+
+#the-booleaner-logo{
+width:8vw;
+position:absolute;
+left:0;
+bottom:0;
+padding:10px;
+}
