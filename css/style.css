@@ -28,6 +28,11 @@ footer img{
 	margin-top:10px;
 }
 
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+
 .smallfont{
 	font-size:12px;
 }
@@ -40,10 +45,11 @@ footer img{
 .tablehead{
    background-color: mediumblue;
 	color:white;
+	text-align: left;
 }
 
-.paddingcell{
-	padding:20px;
+.smallercell{
+	width:200px;
 }
 
 .lightskyblue-raw{
