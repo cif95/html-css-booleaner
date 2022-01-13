@@ -9,24 +9,27 @@
    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-main, footer{
-	padding:10px;
-	margin:10px;
+main, footer, #the-booleaner-logo{
+	padding:7px;
+	margin:7px;
 }
 
-article header h1{
+section header h1{
 	font-size: 3em;
+}
+
+figure, .footerimg{
+	margin-top:10px;
 }
 
 p .greytext{
 	font-size: 20px;
 }
 
-
-footer img{
-	display:block;
-	margin-top:10px;
+ul{
+	margin-left:20px;
 }
+
 
 table{
 	width:100%;
@@ -43,17 +46,17 @@ table{
 
 
 .tablehead{
-   background-color: mediumblue;
+   background-color: rgb(56, 155, 247);
 	color:white;
 	text-align: left;
 }
 
 .smallercell{
-	width:200px;
+	width:20%;
 }
 
 .lightskyblue-raw{
-	background-color: lightskyblue;
+	background-color: rgb(165, 220, 253);
 }
 
 .footerimg{
@@ -61,14 +64,14 @@ table{
 	height:200px;
 	color:white;
 	text-align: center;
-	margin-top: 10px;
+	display:block;
 }
 
 #patternbg{
-	background:url(../img/pattern.png), rgb(77, 132, 250);
+	background: rgb(77, 132, 250) url(../img/pattern.png) fixed top;
 	position:relative;
 	width:100vw;
-	height:20vh;
+	height:23vh;
 }
 
 #the-booleaner-logo{
@@ -76,7 +79,6 @@ width:15vw;
 position:absolute;
 left:0;
 bottom:0;
-padding:10px;
 }
 
 
