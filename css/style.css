@@ -13,6 +13,7 @@
 main{
 	padding: 10px;
 	margin:10px;
+
 }
 
 article header h1{
@@ -23,12 +24,28 @@ p .greytext{
 	font-size: 20px;
 }
 
+table {
+	text-align: left;
+}
+
 .smallfont{
 	font-size:12px;
 }
 
 .greytext{
 	color:rgb(163, 163, 163);
+}
+
+
+.tablehead{
+   background-color: mediumblue;
+	color:white;
+
+}
+
+
+.lightskyblue-raw{
+	background-color: lightskyblue;
 }
 
 #patternbg{
