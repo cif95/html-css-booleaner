@@ -2,31 +2,29 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	font-family: 'Licorice', cursive;
+	/* font-family: 'Licorice', cursive;
    font-family: 'Merriweather', serif;
    font-family: 'Noto Sans', sans-serif;
    font-family: 'Source Sans Pro', sans-serif;
-   font-family: 'Yanone Kaffeesatz', sans-serif;
+   font-family: 'Yanone Kaffeesatz', sans-serif; */
 
 }
 
 main{
 	padding: 10px;
+	margin:10px;
 }
-
 
 article header h1{
 	font-size: 3em;
 }
 
-
-header + p{
+p .greytext{
 	font-size: 20px;
 }
 
-
-header span{
-	font-size:15px;
+.smallfont{
+	font-size:12px;
 }
 
 .greytext{
