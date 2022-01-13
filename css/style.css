@@ -2,18 +2,16 @@
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
-	/* font-family: 'Licorice', cursive;
+	font-family: 'Licorice', cursive;
    font-family: 'Merriweather', serif;
    font-family: 'Noto Sans', sans-serif;
    font-family: 'Source Sans Pro', sans-serif;
-   font-family: 'Yanone Kaffeesatz', sans-serif; */
-
+   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 main, footer{
 	padding:10px;
 	margin:10px;
-
 }
 
 article header h1{
@@ -24,9 +22,6 @@ p .greytext{
 	font-size: 20px;
 }
 
-table {
-	text-align: left;
-}
 
 footer img{
 	display:block;
@@ -45,9 +40,11 @@ footer img{
 .tablehead{
    background-color: mediumblue;
 	color:white;
-
 }
 
+.paddingcell{
+	padding:20px;
+}
 
 .lightskyblue-raw{
 	background-color: lightskyblue;
