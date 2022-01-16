@@ -34,7 +34,13 @@ ul{
 table{
 	width:100%;
 	border-collapse:collapse;
+	text-align: left;
 }
+
+thead{
+   background-color: rgb(56, 155, 247);
+}
+
 
 .smallfont{
 	font-size:12px;
@@ -44,18 +50,12 @@ table{
 	color:rgb(163, 163, 163);
 }
 
-
-thead{
-   background-color: rgb(56, 155, 247);
-	text-align: left;
-}
-
 .tablehead, .footerimg{
 	color:white;
 }
 
-.smallercell{
-	width:20%;
+.half-width{
+	width:50%;
 }
 
 .lightskyblue-raw{
@@ -68,6 +68,7 @@ thead{
 	text-align: center;
 	display:block;
 }
+
 
 #patternbg{
 	background: rgb(77, 132, 250) url(../img/pattern.png) fixed top;
